@@ -1,0 +1,35 @@
+const state ={
+    game:{
+        isOn:false,
+        AllColors:document.querySelectorAll(".game")
+    },
+    dificult:{
+        easy:{
+        speedMS:1200,
+        interval:300,
+        numberOfColors:3
+    },
+        default:{
+        speedMS:800,
+        interval:200,
+        numberOfColors:5
+    },
+        hard:{
+        speedMS:600,
+        interval:200,
+        numberOfColors:7
+    },
+        Caos:{
+        speedMS:300,
+        interval:300,
+        numberOfColors:10
+    }
+    },
+    colors:[
+        colorblue=document.getElementById("blue"),
+        colorgreen=document.getElementById("green"),
+        colorred=document.getElementById("red"),
+        coloryellow=document.getElementById("yellow"),
+        colorpink=document.getElementById("pink")
+    ]
+}
